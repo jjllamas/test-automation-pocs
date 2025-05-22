@@ -38,7 +38,7 @@ test-automation-pocs/
 ### 1. Clona este repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/test-automation-pocs.git
+git clone https://github.com/jjllamas/test-automation-pocs.git
 cd test-automation-pocs
 ```
 
