@@ -147,12 +147,12 @@ test-automation-pocs/
 * Puedes mapear un volumen local si no quieres copiar archivos al contenedor:
 
   ```bash
-  docker run -it --rm -v "$PWD":/tests test-automation
+  docker run -it --rm -v "${PWD}:/tests" test-automation
   ```
 
 * Puedes crear un alias o script:
 
   ```bash
-  alias testdocker='docker run -it --rm -v "$PWD":/tests test-automation'
+  alias testdocker='docker run -it --rm -v "${PWD}":/tests test-automation'
   ```
 

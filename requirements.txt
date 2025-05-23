@@ -1,0 +1,8 @@
+# requirements.txt
+selenium
+behave
+robotframework
+robotframework-seleniumlibrary
+robotframework-requests
+allure-behave
+playwright
