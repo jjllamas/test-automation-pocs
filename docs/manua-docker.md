@@ -156,14 +156,3 @@ test-automation-pocs/
   alias testdocker='docker run -it --rm -v "$PWD":/tests test-automation'
   ```
 
----
-
-## ✅ ¿Qué sigue?
-
-* Implementar una POC en `modulo-1-behave-selenium` y probarla dentro del contenedor.
-* Añadir `docker-compose.yml` si quieres lanzar más de un servicio (Allure, Jenkins, etc.).
-* Publicar tu imagen en Docker Hub si quieres compartirla con el equipo.
-
----
-
-¿Quieres que te prepare un ejemplo completo en `modulo-1-behave-selenium` con un test que puedas correr ahora mismo dentro del contenedor?
