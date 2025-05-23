@@ -83,17 +83,17 @@ CMD [ "bash" ]
 Desde la raíz de tu repo, abre una terminal y ejecuta:
 
 ```bash
-docker build -t test-automation .
+docker build -t qa-automation .
 ```
 
-Esto crea una imagen llamada `test-automation`.
+Esto crea una imagen llamada `qa-automation`.
 
 ---
 
 ## 🛠 Paso 4: Ejecutar el contenedor
 
 ```bash
-docker run -it --rm test-automation
+docker run -it --rm qa-automation
 ```
 
 Esto abrirá una terminal dentro del contenedor donde puedes ejecutar cualquier módulo:
@@ -147,12 +147,12 @@ test-automation-pocs/
 * Puedes mapear un volumen local si no quieres copiar archivos al contenedor:
 
   ```bash
-  docker run -it --rm -v "${PWD}:/tests" test-automation
+  docker run -it --rm -v "${PWD}:/tests" qa-automation
   ```
 
 * Puedes crear un alias o script:
 
   ```bash
-  alias testdocker='docker run -it --rm -v "${PWD}":/tests test-automation'
+  alias testdocker='docker run -it --rm -v "${PWD}":/tests qa-automation'
   ```
 
