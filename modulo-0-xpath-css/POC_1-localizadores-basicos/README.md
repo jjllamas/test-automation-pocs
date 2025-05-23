@@ -18,5 +18,6 @@ Esta prueba de concepto tiene como objetivo explorar los distintos tipos de loca
 ### Ejecutar pruebas
 
 ```bash
-pytest tests/
+cd modulo-0-xpath-css/POC_1-localizadores-basicos
+./run_tests.sh
 ```
